@@ -15,7 +15,7 @@ public class Messi extends Spieler {
 
 
     public Messi(int Defence) {
-        System.out.println("Messis Defense = " + Defence);
+        System.out.println("Messis Defence = " + Defence);
         this.Defence = Defence;
     }
     //protected void messiPass(){
