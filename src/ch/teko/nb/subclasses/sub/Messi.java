@@ -20,7 +20,7 @@ public class Messi extends Spieler {
     }
     //protected void messiPass(){
      //   System.out.println(this.dribbling);
-      //  System.out.println(super.getBall);
+      //  System.out.println(super.getBall); //hat nicht funktioniert
 
     public void messiPass(){
     System.out.println(getDribbling);
