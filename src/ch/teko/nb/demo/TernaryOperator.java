@@ -1,4 +1,4 @@
-package ch.teko.nb.demo;
+package src.ch.teko.nb.demo;
 
 public class TernaryOperator {
     public static void main(String[] args) {
