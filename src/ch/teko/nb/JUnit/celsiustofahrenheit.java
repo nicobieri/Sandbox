@@ -2,11 +2,11 @@ package src.ch.teko.nb.JUnit;
 
 // Java Program to Convert Celsius into Fahrenheit
 class celsiustofahrenheit {
-/*
-    // initialising
-    double celsius = 10.0, fahrenheit = 10.0;
 
-    public double getFahrenheit() {
+    // initialising
+    static double celsius = 10.0, fahrenheit = 0;
+
+    public static double toFahrenheit(double fahrenheit) {
         celsius =  (celsius - 32) / 1.8;
         System.out.println(
                 " value of temperature in celsius:"
@@ -14,7 +14,7 @@ class celsiustofahrenheit {
         return fahrenheit;
     }
 
-    public double getCelsius() {
+    public static double toCelsius(double celsius) {
         // formula for conversion
         fahrenheit = (fahrenheit * 1.8) + 32;
         System.out.println(
@@ -24,11 +24,10 @@ class celsiustofahrenheit {
     }
 
     public static void main(String[] args) {
-
-        this.getCelsius();
+    System.out.println(toCelsius(celsius));
+    System.out.println(toFahrenheit(fahrenheit));
 
 
 
     }
-*/
 }
